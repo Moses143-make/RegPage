@@ -48,7 +48,7 @@ public class LoginSteps {
     @When("enters email address {string}")
     public void enters_email_address(String email) {
     	pageobjects.enterEmail(email);
-        BaseClass.tearDown(); // close browser after registration
+        BaseClass.tearDown(); 
     }
 }
 
